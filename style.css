@@ -1,0 +1,61 @@
+* {
+    background-color:#d1abc6;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height:100vh;
+    justify-content: space-between;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    background-image: url(kirby_logo.png);
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 50%;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.nav-bar a {
+    color: white;
+    font-size:24px;
+    padding:15px;
+    text-decoration: none;
+    border-radius:5px;
+}
+.nav-bar a:hover {
+    background-color:darkmagenta;
+}
+.splash-screen {
+    display: flex;
+    flex-direction: column;
+}
+
+.splash-screen span {
+    color:white;
+    font-size: 18px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+}
+@screen {
+
+}
